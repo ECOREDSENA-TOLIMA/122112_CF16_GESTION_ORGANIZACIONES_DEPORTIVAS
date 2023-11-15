@@ -1,7 +1,8 @@
 export default {
   global: {
-    componenteFormativo: 'NOMBRE DEL COMPONENTE FORMATIVO',
-    descripcionCurso: 'BREVE DESCRIPCIÓN',
+    componenteFormativo: 'Normas que regulan el proceso contable',
+    descripcionCurso:
+      'En este componente se abordará la normativa que regula el proceso contable, los estándares técnicos, aspectos legales, prohibiciones y demás elementos temáticos que aportan a la regulación contable.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
@@ -31,28 +32,41 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Normas que regulan el proceso contable ',
         desarrolloContenidos: true,
         subMenu: [
           {
             numero: '1.1',
-            titulo: 'Titulo de segundo nivel',
+            titulo: 'Especificaciones, tipos y clases',
             hash: 't_1_1',
           },
+          {
+            numero: '1.2',
+            titulo: 'Estándares técnicos ',
+            hash: 't_1_2',
+          },
+          {
+            numero: '1.3',
+            titulo: 'Características ',
+            hash: 't_1_3',
+          },
+          {
+            numero: '1.4',
+            titulo: 'Aspectos legales ',
+            hash: 't_1_4',
+          },
+          {
+            numero: '1.5',
+            titulo: 'Prohibiciones ',
+            hash: 't_1_5',
+          },
+          {
+            numero: '1.6',
+            titulo:
+              'Tablas de retención y valoración documental aplicadas al sistema contable',
+            hash: 't_1_6',
+          },
         ],
-      },
-
-      {
-        nombreRuta: 'tema2',
-        numero: '2',
-        titulo: 'Titulo de primer nivel',
-        desarrolloContenidos: true,
-      },
-      {
-        nombreRuta: 'tema3',
-        numero: '3',
-        titulo: 'Titulo de primer nivel',
-        desarrolloContenidos: true,
       },
     ],
     subMenu: [
@@ -102,32 +116,105 @@ export default {
   },
   complementario: [
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      link: 'https://www.google.com/',
+      tema: 'Estándares técnicos',
+      referencia:
+        'Gerencie.com. (2020). Marco jurídico de la contabilidad en Colombia.',
+      tipo: 'Página web',
+      link:
+        'https://www.gerencie.com/marco-juridico-de-la-contabilidad-en-colombia.html',
     },
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      descarga: '/downloads/prueba.pdf',
+      tema: 'Estándares técnicos',
+      referencia:
+        'Colombia potencia de la vida. (s.f). Régimen de Contabilidad Pública en Convergencia con Estándares Internacionales de Información Financiera. ',
+      tipo: 'Página web',
+      link: 'https://www.contaduria.gov.co/rcp-en-convergencia-con-niif-nicsp',
     },
   ],
   glosario: [
     {
-      termino: 'Término',
-      significado: 'Texto de la definición',
+      termino: 'Estándares',
+      significado:
+        'son especificaciones acerca de cómo debe desarrollarse una tarea o función determinada y están basados en acuerdos entre una o más entidades o determinado grupo de personas.',
     },
     {
-      termino: '<em>Término con extranjerismo</em>',
-      significado: 'Definición',
+      termino: 'Normas',
+      significado:
+        'principios que se imponen o se adoptan para dirigir la conducta o la correcta realización de una acción o el correcto desarrollo de la actividad.',
+    },
+    {
+      termino: 'Prohibiciones',
+      significado:
+        'veto o limitación que se tiene para tocar, utilizar o realizar algo.',
+    },
+    {
+      termino: 'Regular',
+      significado:
+        'presenta similitud o continuidad, en su conjunto, desarrollo, distribución o duración.',
+    },
+    {
+      termino: 'Tablas de retención',
+      significado:
+        'instrumento archivístico, que se utiliza como herramienta para fortalecer y apoyar las estrategias de gestión documental en las empresas.',
     },
   ],
   referencias: [
     {
-      referencia: '',
-      link: '',
+      referencia:
+        'Acuerdo 004 de 2019 [Archivo General de la Nación]. Por el cual se reglamenta el procedimiento para la elaboración, aprobación, evaluación y convalidación, implementación, publicación e inscripción en el Registro Único de Series Documentales – RUSD de las Tablas de Retención Documental – TRD y Tablas de Valoración Documental – TVD. Abril 30 de 2019. ',
+      link: 'https://normativa.archivogeneral.gov.co/acuerdo-004-de-2019/',
+    },
+    {
+      referencia:
+        'Acuerdo 39 de 2002 [Archivo General de la Nación]. Por el cual se regula el procedimiento para la elaboración y aplicación de las Tablas de Retención Documental en desarrollo del artículo 24 de la Ley 594 de 2000. Octubre 31 de 2002.',
+      link:
+        'https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=6351',
+    },
+    {
+      referencia:
+        'Contaduría General de la Nación. (s.f.). Marco normativo para entidades de gobierno. Contaduría General de la Nación.',
+      link:
+        'https://www.contaduria.gov.co/marco-normativo-para-entidades-de-gobierno',
+    },
+    {
+      referencia:
+        'Decreto 2420 de 2015.  [Presidente de la República de Colombia]. Por medio del cual se expide el decreto único reglamentario de las normas de contabilidad, de información financiera y de aseguramiento de la información y se dictan otras disposiciones. Diciembre 14 de 2015.',
+      link:
+        'https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=76745',
+    },
+    {
+      referencia:
+        'Decreto 2649 de 1993. [Presidente de la República de Colombia]. Por el cual se reglamenta la contabilidad en general y se expiden los principios o normas de la contabilidad generalmente aceptados en Colombia. Diciembre 29 de 1993.',
+      link:
+        'https://normativa.archivogeneral.gov.co/decreto-2649-de-1993/?pdf=734',
+    },
+    {
+      referencia:
+        'Decreto 410 de 1971. [Presidente de la República de Colombia]. Por el cual se expide el Código de Comercio. Marzo 27 de 1971.',
+      link:
+        'https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=41102',
+    },
+    {
+      referencia:
+        'IFRS Foundation. (s.f.). International Financial Reporting Standard. NIIF – Normas Internacionales de Información Financiera.',
+      link: 'https://www.ifrs.org/issued-standards/ifrs-for-smes/',
+    },
+    {
+      referencia:
+        'Ley 1314 de 2009.  Por la cual se regulan los principios y normas de contabilidad e información financiera y de aseguramiento de información aceptados en Colombia, se señalan las autoridades competentes, el procedimiento para su expedición y se determinan las entidades responsables de vigilar su cumplimiento. Julio 13 de 2009.',
+      link: 'http://suin.gov.co/viewDocument.asp?ruta=Leyes/1677255',
+    },
+    {
+      referencia:
+        'Ley 43 de 1990. Por la cual se adiciona la Ley 145 de 1960, reglamentaria de la profesión de Contador Público y se dictan otras disposiciones. Diciembre 13 de 1990.',
+      link:
+        'https://bibliotecadigital.ccb.org.co/bitstream/handle/11520/14007/Ley%2043%20de%201990.pdf?sequence=1&isAllowed=y',
+    },
+    {
+      referencia:
+        'Ley 145 de 1960. Por la cual se reglamenta el ejercicio de la profesión de Contador público. Diciembre 30 de 1960.',
+      link:
+        'https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=66188',
     },
   ],
   creditos: [
@@ -135,15 +222,15 @@ export default {
       titulo: 'ECOSISTEMA DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Claudia Patricia Aristizabal',
-          cargo: 'Responsable del Ecosistema',
+          nombre: 'Claudia Patricia Aristizábal Gutiérrez',
+          cargo: 'Responsable del equipo',
           centro: 'Dirección General',
         },
         {
-          nombre: 'Rafael Neftalí Lizcano Reyes',
-          cargo: 'Responsable de Línea de Producción',
+          nombre: 'Liliana Victoria Morales Gualdrón',
+          cargo: 'Responsable de línea de producción',
           centro:
-            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+            'Regional Distrito Capital - Centro de Gestión De Mercados, Logística y Tecnologías de la Información',
         },
       ],
     },
@@ -151,10 +238,47 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Nombre del rol',
+          nombre: 'Tatiana Cristina Vargas Ossa',
+          cargo: 'Instructora',
+          centro: 'Regional Antioquia - Centro de servicios de salud',
+        },
+        {
+          nombre: 'Camilo Andrés Aramburo Parra',
+          cargo: 'Experto temático',
+          centro: 'Regional Antioquia - Centro de servicios de salud',
+        },
+        {
+          nombre: 'Paola Andrea Quintero Aguilar',
+          cargo: 'Diseño instruccional',
+          centro: 'Regional Bogotá - Centro de Gestión Industrial',
+        },
+        {
+          nombre: 'Carolina Coca Salazar',
+          cargo: 'Asesoría metodológica y pedagógica',
+          centro: 'Regional Distrito Capital - Centro de Diseño y Metrología',
+        },
+        {
+          nombre: 'Rafael Neftalí Lizcano Reyes',
+          cargo: 'Responsable equipo de desarrollo curricular',
           centro:
-            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+        },
+        {
+          nombre: 'Julia Isabel Roberto',
+          cargo: 'Corrección de estilo',
+          centro: 'Regional Distrito Capital - Centro de Diseño y Metrología',
+        },
+        {
+          nombre: 'Gloria Lida Alzate Suarez',
+          cargo: 'Adecuación instruccional',
+          centro:
+            'Regional Distrito Capital - Centro de Gestión de Mercados, Logística y Tecnologías de la Información',
+        },
+        {
+          nombre: 'Alix Cecilia Chinchilla Rueda',
+          cargo: 'Metodología para la formación virtual',
+          centro:
+            'Regional Distrito Capital - Centro de Gestión de Mercados, Logística y Tecnologías de la Información',
         },
       ],
     },
@@ -162,28 +286,16 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Diseñador de Contenidos Digitales',
+          nombre: 'Adriana Marcela Suárez Eljure',
+          cargo: 'Diseño web',
           centro:
-            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+            'Regional Distrito Capital - Centro de Gestión de Mercados, Logística y Tecnologías de la Información',
         },
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Desarrollador Fullstack',
+          nombre: 'Manuel Felipe Echavarría Orozco',
+          cargo: 'Desarrollo Fullstack',
           centro:
-            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
-        },
-        {
-          nombre: 'Nombre',
-          cargo: 'Animador y Producción audiovisual',
-          centro:
-            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
-        },
-        {
-          nombre: 'Nombre',
-          cargo: 'Actividad Didáctica',
-          centro:
-            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+            'Regional Distrito Capital - Centro de Gestión de Mercados, Logística y Tecnologías de la Información',
         },
       ],
     },
@@ -191,22 +303,23 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: 'Zuleidy María Ruiz Torres',
-          cargo: 'Validador de Recursos Educativos Digitales',
+          nombre: 'Carolina Coca Salazar',
+          cargo: 'Evaluación de contenidos inclusivos y accesibles',
           centro:
-            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+            'Regional Distrito Capital - Centro de Gestión de Mercados, Logística y Tecnologías de la Información',
         },
         {
-          nombre: 'Luis Gabriel Urueta Alvarez',
-          cargo: 'Validador de Recursos Educativos Digitales',
+          nombre: 'Lina Marcela Pérez Manchego',
+          cargo: 'Validación de recursos educativos digitales',
           centro:
-            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+            'Regional Distrito Capital - Centro de Gestión de Mercados, Logística y Tecnologías de la Información',
         },
         {
-          nombre: 'Daniel Ricardo Mutis Gómez',
-          cargo: 'Evaluador para contenidos inclusivos y accesibles',
+          nombre: 'Leyson Fabian Castaño Pérez',
+          cargo:
+            'Validación de recursos educativos digitales y vinculación LMS',
           centro:
-            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+            'Regional Distrito Capital - Centro de Gestión de Mercados, Logística y Tecnologías de la Información',
         },
       ],
     },
