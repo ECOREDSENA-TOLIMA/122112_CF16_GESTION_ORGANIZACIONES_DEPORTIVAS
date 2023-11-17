@@ -9,9 +9,9 @@
           figure
             img(src="@/assets/template/falso-verdadero.svg", alt="Texto que describa la imagen")
       .col-12.col-md-8.col-lg-9
-        .titulo-segundo
-          h2 Nombre de la actividad
-        p.mb-4 #[b Objetivo] 
+        .titulo-segundo.color-acento-botones(data-aos='fade-up-right')
+          h2 Conceptualización de normas en el proceso contable
+        p.mb-4 Interpretar los conceptos esenciales de las normas contables para asegurar la conformidad legal y mejorar la excelencia en la gestión contable organizacional.
         .tarjeta.actividad.p-3
           .row.justify-content-around.align-items-center            
             .col-sm.mb-3.mb-sm-0

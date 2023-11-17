@@ -6,9 +6,17 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span
-          i.fas.fa-info
+          i.fas.fa-info.texto-negro
       h1 Introducción
-    
+
+    p.mb-5 Estimado aprendiz, a través del siguiente video podrá conocer los aspectos relevantes que tratará este componente:
+
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-down")
+      figure
+        .video
+          iframe(width="560" height="315" src="https://www.youtube.com/embed/1234567890" title="xxxxxxxxxx" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+
+
 </template>
 
 <script>

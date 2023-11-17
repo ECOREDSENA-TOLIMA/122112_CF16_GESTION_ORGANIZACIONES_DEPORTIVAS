@@ -2,7 +2,7 @@
 .curso-main-container.pb-3
   BannerInterno(icono="fas fa-sitemap" titulo="Síntesis")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-    p.mb-5 A continuación, se muestra un mapa conceptual con los elementos más importantes desarrollados en este componente.
+    p.mb-5 En resumen, las normas que regulan el proceso contable se basan en estándares técnicos, se ajustan a aspectos legales y se adhieren a características clave de la información financiera. También deben cumplir con leyes y prohibiciones específicas, y seguir pautas de retención y valoración documental para garantizar la integridad y la utilidad de la información contable en una organización. A continuación, se presenta un mapa conceptual que resume la información de este proceso.
 
     .row.justify-content-center
       .col-lg-10.mb-5
