@@ -14,8 +14,8 @@
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-down")
       figure
         .video
-          iframe(width="560" height="315" src="https://www.youtube.com/embed/1234567890" title="xxxxxxxxxx" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-
+          iframe(width="560" height="315" src="https://www.youtube.com/embed/ctR64djnHgI" title="Proceso contable" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        figcaption Proceso contable
 
 </template>
 

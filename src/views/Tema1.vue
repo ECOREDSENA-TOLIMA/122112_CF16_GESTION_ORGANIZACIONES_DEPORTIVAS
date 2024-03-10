@@ -88,23 +88,19 @@
             .col-md-5.mb-4.mb-md-0
               figure
                 img(src='@/assets/curso/temas/tema1/img3.svg', alt='Imágen decorativa')
-
             .col-md-7
               h4 Análisis de compra
               p Son los marcos técnicos normativos expedidos para cada uno de los tres grupos incluidos en el direccionamiento estratégico del Comité técnico del sistema documental contable. Estos se centran en un conjunto de estándares técnicos que establecen los criterios para reconocer, medir, presentar y revelar información financiera en los estados financieros de propósito general de una entidad que se encuentra bajo la hipótesis de negocio en marcha. 
-
-              p  Es importante aclarar que los estados financieros se generan a partir del sistema contable, y las normas internacionales de información financiera tienen como finalidad la presentación de estos estados financieros.   
+              p Es importante aclarar que los estados financieros se generan a partir del sistema contable, y las normas internacionales de información financiera tienen como finalidad la presentación de estos estados financieros.   
 
         .py-4.py-md-5(titulo="Normas internacionales de información financiera " :icono="require('@/assets/curso/temas/tema1/img4-1.svg')")
           .row
             .col-md-5.mb-4.mb-md-0
               figure
                 img(src='@/assets/curso/temas/tema1/img4.svg', alt='Imágen decorativa')
-
             .col-md-7
               h4 Análisis de compra
               p Son un conjunto de estándares internacionales de contabilidad, promulgada por el International Accounting Standars Board (IASB), que establece los requisitos de reconocimiento, medición, presentación e información a revelar sobre las transacciones y hechos económicos que afectan a una empresa y que se reflejan en los estados financieros.
-
               p La adopción de estas normas ofrece la oportunidad de mejorar la función financiera, en la adopción de políticas contables con mayor transparencia, incremento en la comparabilidad y mejora en la eficiencia.
 
     separador
@@ -113,8 +109,7 @@
 
     .row.justify-content-center.align-items-center.mb-5
       p Teniendo en cuenta las Normas Internacionales de Información Financiera existen diez características cualitativas, las cuales se dividen en dos tipos, características fundamentales y características de mejora.
-
-      p <b>Las características fundamentales.</b> Permiten presentar los estados financieros, ya que son filtros para que su representación sea fiel a la situación real de la empresa:
+      p #[b Las características fundamentales permiten] presentar los estados financieros, ya que son filtros para que su representación sea fiel a la situación real de la empresa:
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-7
@@ -132,7 +127,7 @@
                   .col-11
                     p.mb-0.text-white <b>Fiabilidad:</b> los estados financieros deben representar fielmente lo que pretende representar, libre de sesgo y de error.  
 
-    p.mb-5 En las características de mejora.  No se tiene un orden establecido o de cumplimiento, ya que dependerán de las necesidades particulares de la organización:
+    p.mb-5 En las #[b características de mejora] no se tiene un orden establecido o de cumplimiento, ya que dependerán de las necesidades particulares de la organización:
 
     .row.justify-content-center.align-items-center.mb-5
       .col-10.col-lg-5
@@ -320,13 +315,12 @@
 
     p.mb-5 Son herramientas fundamentales para la organización de archivos, en especial en las entidades públicas, las cuales contribuyen con la eficiencia y eficacia en la gestión de los servidores públicos. En el Archivo General de la Nación se definen las Tablas de retención documental como el listado de series, con sus correspondientes tipos documentales, a las cuales se asigna el tiempo de permanencia en cada etapa del ciclo vital de los documentos. En resumen, estas tablas son instrumentos que ayudan a identificar los documentos de una entidad, determinar su relevancia y necesidad en términos de conservación y preservación a lo largo del tiempo, y establecer las acciones que deben tomarse una vez que han cumplido su plazo de vigencia o utilidad, como se observa en la siguiente figura: 
 
-    .titulo-sexto.color-acento-botones.mb-5
-      h5 Figura 1
-      span Formato de tabla de retención documental 
-
     .row.justify-content-center.align-items-center.mb-5
+      .col-12
+        .titulo-sexto.color-acento-contenido
+          p.titulo.pb-0.mb-0 <b>Figura 1. </b> <i>Formato de tabla de retención documental</i>
       figure
-        img(src='@/assets/curso/temas/tema1/img15.svg', alt='Imágen decorativa')
+        img(src='@/assets/curso/temas/tema1/img15.svg', alt='Formato que permite representar mediante una tabla la retención documental.')
         figcaption.mt-3 Fuente: Tomado de Archivo General de la Nación Colombia (2019). 
 
     p.mb-5 Estas tablas buscan cumplir los siguientes objetivos:
@@ -369,14 +363,12 @@
               figure
                 img(src='@/assets/curso/temas/tema1/img17.svg', alt='Imágen decorativa').img17
             .col-md-11.col-lg-11
-              p.mt-5 Las Tablas de retención documental son el listado de series con sus correspondientes tipos documentales, producidos o recibidos por las unidades administrativas de una entidad, en cumplimiento de sus funciones, a las cuales se les asigna  el tiempo de permanencia e cada fase del archivo
-
+              p.mt-5 Las tablas de retención documental son el listado de series con sus correspondientes tipos documentales, producidos o recibidos por las unidades administrativas de una entidad, en cumplimiento de sus funciones, a las cuales se les asigna  el tiempo de permanencia en cada fase del archivo.
       .col-10.col-lg-4
         .tarjeta6.p-5
           .row.justify-content-center.align-items-center
             .col-md-11.col-lg-11
-              p.mb-5 Las Tablas de retención documental son  el instrumento archivístico esencial que permite la normalización de la gestion documental, la racionalización de la producción documental y la institucionalización  del ciclo vital de los  documentos en los archivos de gestion, central e histórico de las entidades.
-
+              p.mb-5 Las tablas de retención documental son  el instrumento archivístico esencial que permite la normalización de la gestion documental, la racionalización de la producción documental y la institucionalización  del ciclo vital de los documentos en los archivos de gestion, central e histórico de las entidades.
             .col-6
               figure
                 img(src='@/assets/curso/temas/tema1/img18.svg', alt='Imágen decorativa').img18
@@ -461,7 +453,7 @@
               figure
                 img(src='@/assets/curso/temas/tema1/img21.svg', alt='Imágen decorativa')
           
-            p.mt-5 Se elaboran para documentos ya producidos, que han pasado a su segunda 0 tercera etapa del ciclo vital, es decir, la documentación semiactiva de uso administrativo y legal ocasional o inactiva, que ha dejado de emplearse con fines legales o administrativos. LasTablas de Valoración Documental — TVD se elaboran para los documentos producidos en los periodos de la historia de la entidad que no cuentan con Tablas de Retención Documental — TRD.
+            p.mt-5 Se elaboran para documentos ya producidos, que han pasado a su segunda o tercera etapa del ciclo vital, es decir, la documentación semiactiva de uso administrativo y legal ocasional o inactiva, que ha dejado de emplearse con fines legales o administrativos. LasTablas de Valoración Documental — TVD se elaboran para los documentos producidos en los periodos de la historia de la entidad que no cuentan con Tablas de Retención Documental — TRD.
 
 
 </template>

@@ -202,7 +202,8 @@ export default {
     {
       referencia:
         'Ley 1314 de 2009.  Por la cual se regulan los principios y normas de contabilidad e información financiera y de aseguramiento de información aceptados en Colombia, se señalan las autoridades competentes, el procedimiento para su expedición y se determinan las entidades responsables de vigilar su cumplimiento. Julio 13 de 2009.',
-      link: 'http://suin.gov.co/viewDocument.asp?ruta=Leyes/1677255',
+      link:
+        'https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=36833',
     },
     {
       referencia:
@@ -222,15 +223,14 @@ export default {
       titulo: 'ECOSISTEMA DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Claudia Patricia Aristizábal Gutiérrez',
-          cargo: 'Responsable del equipo',
+          nombre: 'Milady Tatiana Villamil Castellanos',
+          cargo: 'Responsable del Equipo',
           centro: 'Dirección General',
         },
         {
           nombre: 'Liliana Victoria Morales Gualdrón',
-          cargo: 'Responsable de línea de producción',
-          centro:
-            'Regional Distrito Capital - Centro de Gestión De Mercados, Logística y Tecnologías de la Información',
+          cargo: 'Responsable de Línea de Producción',
+          centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
       ],
     },
@@ -280,6 +280,11 @@ export default {
           centro:
             'Regional Distrito Capital - Centro de Gestión de Mercados, Logística y Tecnologías de la Información',
         },
+        {
+          nombre: 'Viviana Esperanza Herrera Quiñonez',
+          cargo: 'Evaluación Instruccional',
+          centro: 'Centro de Comercio y Servicios - Regional Tolima',
+        },
       ],
     },
     {
@@ -287,7 +292,7 @@ export default {
       autores: [
         {
           nombre: 'Adriana Marcela Suárez Eljure',
-          cargo: 'Diseño web',
+          cargo: 'Diseño Web',
           centro:
             'Regional Distrito Capital - Centro de Gestión de Mercados, Logística y Tecnologías de la Información',
         },
@@ -297,29 +302,60 @@ export default {
           centro:
             'Regional Distrito Capital - Centro de Gestión de Mercados, Logística y Tecnologías de la Información',
         },
+        {
+          nombre: '',
+          cargo: 'Diseño Web',
+          centro: 'Centro de Comercio y Servicios - Regional Tolima',
+        },
+        {
+          nombre: 'Oscar Daniel Espitia Marin',
+          cargo: 'Desarrollo Fullstack',
+          centro: 'Centro de Comercio y Servicios - Regional Tolima',
+        },
+        {
+          nombre: 'Laura Giselle Murcia Pardo',
+          cargo: 'Animación y Producción Audiovisual',
+          centro:
+            'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
+        },
       ],
     },
     {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
+        // {
+        //   nombre: 'Carolina Coca Salazar',
+        //   cargo: 'Evaluación de contenidos inclusivos y accesibles',
+        //   centro:
+        //     'Regional Distrito Capital - Centro de Gestión de Mercados, Logística y Tecnologías de la Información',
+        // },
+        // {
+        //   nombre: 'Lina Marcela Pérez Manchego',
+        //   cargo: 'Validación de recursos educativos digitales',
+        //   centro:
+        //     'Regional Distrito Capital - Centro de Gestión de Mercados, Logística y Tecnologías de la Información',
+        // },
+        // {
+        //   nombre: 'Leyson Fabian Castaño Pérez',
+        //   cargo:
+        //     'Validación de recursos educativos digitales y vinculación LMS',
+        //   centro:
+        //     'Regional Distrito Capital - Centro de Gestión de Mercados, Logística y Tecnologías de la Información',
+        // },
         {
-          nombre: 'Carolina Coca Salazar',
-          cargo: 'Evaluación de contenidos inclusivos y accesibles',
-          centro:
-            'Regional Distrito Capital - Centro de Gestión de Mercados, Logística y Tecnologías de la Información',
+          nombre: '',
+          cargo: 'Evaluación de Contenidos Inclusivos y Accesibles',
+          centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
         {
-          nombre: 'Lina Marcela Pérez Manchego',
-          cargo: 'Validación de recursos educativos digitales',
-          centro:
-            'Regional Distrito Capital - Centro de Gestión de Mercados, Logística y Tecnologías de la Información',
+          nombre: 'Javier Mauricio Oviedo',
+          cargo: 'Validación de Recursos Educativos Digitales',
+          centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
         {
-          nombre: 'Leyson Fabian Castaño Pérez',
-          cargo:
-            'Validación de recursos educativos digitales y vinculación LMS',
-          centro:
-            'Regional Distrito Capital - Centro de Gestión de Mercados, Logística y Tecnologías de la Información',
+          nombre: 'Jorge Bustos Gómez',
+          cargo: 'Validación de Recursos Educativos Digitales',
+          centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
       ],
     },
