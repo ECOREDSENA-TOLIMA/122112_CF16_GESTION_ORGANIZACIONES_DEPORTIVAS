@@ -384,10 +384,12 @@
         AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta-morada")
           .row(titulo="Artículo 1")
             p Regula el procedimiento que deben seguir las entidades del Estado en sus diferentes niveles de la organización administrativa, territorial y por servicios y, las entidades privadas que prestan servicios públicos, para la elaboración y aplicación de las Tablas de retención documental. Dicho procedimiento se divide en diferentes etapas: 
-          
-            .col-md-6
+            .col-12
+              .titulo-sexto.color-acento-contenido
+                p.titulo.pb-0.mb-0 <b>Figura 2. </b> <i>Etapas para la elaboración y aplicación de las Tablas de retención documental</i>
               figure
-                img(src='@/assets/curso/temas/tema1/img20.svg', alt='Imágen decorativa')
+                img.d-none.d-sm-none.d-md-block(src='@/assets/curso/temas/tema1/img20.svg', alt='')
+                img.d-block.d-md-none(src='@/assets/curso/temas/tema1/img20b.svg', alt='')
 
           .row(titulo="Artículo 2")
             p El Archivo General de la Nación en cumplimiento de la función de inspección y vigilancia verificará la aplicación de las Tablas de retención documental, en el momento que lo considere pertinente.  
