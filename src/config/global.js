@@ -100,7 +100,7 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/prueba.pdf',
+        download: 'downloads/CFA_16_122112.zip',
       },
       {
         icono: 'fas fa-download',
@@ -343,7 +343,7 @@ export default {
         //     'Regional Distrito Capital - Centro de Gestión de Mercados, Logística y Tecnologías de la Información',
         // },
         {
-          nombre: '',
+          nombre: 'Jorge Eduardo Rueda Peña',
           cargo: 'Evaluación de Contenidos Inclusivos y Accesibles',
           centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
