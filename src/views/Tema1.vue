@@ -89,7 +89,7 @@
               figure
                 img(src='@/assets/curso/temas/tema1/img3.svg', alt='Imágen decorativa')
             .col-md-7
-              h4 Análisis de compra
+              //- h4 Análisis de compra
               p Son los marcos técnicos normativos expedidos para cada uno de los tres grupos incluidos en el direccionamiento estratégico del Comité técnico del sistema documental contable. Estos se centran en un conjunto de estándares técnicos que establecen los criterios para reconocer, medir, presentar y revelar información financiera en los estados financieros de propósito general de una entidad que se encuentra bajo la hipótesis de negocio en marcha. 
               p Es importante aclarar que los estados financieros se generan a partir del sistema contable, y las normas internacionales de información financiera tienen como finalidad la presentación de estos estados financieros.   
 
@@ -99,7 +99,7 @@
               figure
                 img(src='@/assets/curso/temas/tema1/img4.svg', alt='Imágen decorativa')
             .col-md-7
-              h4 Análisis de compra
+              //- h4 Análisis de compra
               p Son un conjunto de estándares internacionales de contabilidad, promulgada por el International Accounting Standars Board (IASB), que establece los requisitos de reconocimiento, medición, presentación e información a revelar sobre las transacciones y hechos económicos que afectan a una empresa y que se reflejan en los estados financieros.
               p La adopción de estas normas ofrece la oportunidad de mejorar la función financiera, en la adopción de políticas contables con mayor transparencia, incremento en la comparabilidad y mejora en la eficiencia.
 
@@ -406,7 +406,7 @@
       .col-lg-4
         .tarjeta7.p-4
           .row.justify-content-center.align-items-center
-            .col-lg-3
+            .col-lg-3.col-4.col-md-2
               figure
                 img(src='@/assets/curso/temas/tema1/img21.svg', alt='Imágen decorativa')
           
@@ -415,7 +415,7 @@
       .col-lg-4
         .tarjeta8.p-4
           .row.justify-content-center.align-items-center
-            .col-lg-3
+            .col-lg-3.col-4.col-md-2
               figure
                 img(src='@/assets/curso/temas/tema1/img21.svg', alt='Imágen decorativa')
           
@@ -424,7 +424,7 @@
       .col-lg-4
         .tarjeta9.p-4
           .row.justify-content-center.align-items-center
-            .col-lg-3.mb-3
+            .col-lg-3.mb-3.col-4.col-md-2
               figure
                 img(src='@/assets/curso/temas/tema1/img21.svg', alt='Imágen decorativa')
           
@@ -433,7 +433,7 @@
       .col-lg-4
         .tarjeta10.p-4
           .row.justify-content-center.align-items-center
-            .col-lg-3.mb-5
+            .col-lg-3.mb-5.col-4.col-md-2
               figure
                 img(src='@/assets/curso/temas/tema1/img21.svg', alt='Imágen decorativa')
           
@@ -443,19 +443,19 @@
       .col-lg-4
         .tarjeta11.p-4
           .row.justify-content-center.align-items-center
-            .col-lg-3
+            .col-lg-3.col-4.col-md-2
               figure
                 img(src='@/assets/curso/temas/tema1/img21.svg', alt='Imágen decorativa')
           
-            p.mt-5 Registrar los tiempos de retención y la disposición final de la totalidad de las series, subseries o asuntos (en el caso de Tablas de Valoración Documental — TVD) identificados, como resultado del proceso de valoración documental. Tanto los tiempos de retención y disposición final registrados deberán definirse y aplicarse a series, subseries y asuntos (en el caso de Tablas de Valoración Documental — TVD) y no a tipologías documentales.
+            p.mt-5.pt-3 Registrar los tiempos de retención y la disposición final de la totalidad de las series, subseries o asuntos (en el caso de Tablas de Valoración Documental — TVD) identificados, como resultado del proceso de valoración documental. Tanto los tiempos de retención y disposición final registrados deberán definirse y aplicarse a series, subseries y asuntos (en el caso de Tablas de Valoración Documental — TVD) y no a tipologías documentales.
       .col-lg-4
         .tarjeta12.p-4
           .row.justify-content-center.align-items-center
-            .col-lg-3
+            .col-lg-3.col-4.col-md-2
               figure
                 img(src='@/assets/curso/temas/tema1/img21.svg', alt='Imágen decorativa')
           
-            p.mt-5 Se elaboran para documentos ya producidos, que han pasado a su segunda o tercera etapa del ciclo vital, es decir, la documentación semiactiva de uso administrativo y legal ocasional o inactiva, que ha dejado de emplearse con fines legales o administrativos. LasTablas de Valoración Documental — TVD se elaboran para los documentos producidos en los periodos de la historia de la entidad que no cuentan con Tablas de Retención Documental — TRD.
+            p.mt-5.pt-3 Se elaboran para documentos ya producidos, que han pasado a su segunda o tercera etapa del ciclo vital, es decir, la documentación semiactiva de uso administrativo y legal ocasional o inactiva, que ha dejado de emplearse con fines legales o administrativos. LasTablas de Valoración Documental — TVD se elaboran para los documentos producidos en los periodos de la historia de la entidad que no cuentan con Tablas de Retención Documental — TRD.
 
 
 </template>

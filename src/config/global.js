@@ -178,6 +178,24 @@ export default {
     },
     {
       referencia:
+        'Contaduría General de la Nación. (2024). Resolución 533 de 2015. Recuperado de ',
+      link:
+        'https://www.contaduria.gov.co/documents/20127/36444/Res_%2B533.pdf/b513cc87-7726-04ab-02e4-8691544220c6?t=1558381851097',
+    },
+    {
+      referencia:
+        'Contaduría General de la Nación. (2024). Resolución 663 de 2015. Recuperado de ',
+      link:
+        'https://www.contaduria.gov.co/documents/20127/36444/Res663-2015.pdf/f4264a94-4304-29f9-7eb5-7089ae4617f7?t=1558381849617',
+    },
+    {
+      referencia:
+        'Comunidad Contable. (s.f.). Contaduría General de la Nación. Resolución 414 de 2014. Recuperado de ',
+      link:
+        'https://www.comunidadcontable.com/BancoMedios/Documentos%20PDF/resoluci%C3%B3n%20414%20de%202014.pdf',
+    },
+    {
+      referencia:
         'Decreto 2420 de 2015.  [Presidente de la República de Colombia]. Por medio del cual se expide el decreto único reglamentario de las normas de contabilidad, de información financiera y de aseguramiento de la información y se dictan otras disposiciones. Diciembre 14 de 2015.',
       link:
         'https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=76745',
@@ -196,14 +214,8 @@ export default {
     },
     {
       referencia:
-        'IFRS Foundation. (s.f.). International Financial Reporting Standard. NIIF – Normas Internacionales de Información Financiera.',
+        'IFRS Foundation. (s.f.). International Financial Reporting Standard. NIIF - Normas Internacionales de Información Financiera.',
       link: 'https://www.ifrs.org/issued-standards/ifrs-for-smes/',
-    },
-    {
-      referencia:
-        'Ley 1314 de 2009.  Por la cual se regulan los principios y normas de contabilidad e información financiera y de aseguramiento de información aceptados en Colombia, se señalan las autoridades competentes, el procedimiento para su expedición y se determinan las entidades responsables de vigilar su cumplimiento. Julio 13 de 2009.',
-      link:
-        'https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=36833',
     },
     {
       referencia:
@@ -217,6 +229,23 @@ export default {
       link:
         'https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=66188',
     },
+    {
+      referencia:
+        'Ministerio de Relaciones Exteriores de Colombia. (2016). Decreto 143 de 2004. Recuperado de ',
+      link:
+        'https://www.cancilleria.gov.co/sites/default/files/Normograma/docs/resolucion_contaduria_0148_2004.htm',
+    },
+    {
+      referencia:
+        'Secretaría del Senado. (2024). Congreso de la República. Ley 1314 de 2009. Recuperado de ',
+      link:
+        'http://www.secretariasenado.gov.co/senado/basedoc/ley_1314_2009.html',
+    },
+    {
+      referencia:
+        'SUIN-Juriscol. (s.f.). Resolución 037 de 2017. Recuperado de ',
+      link: 'https://www.suin-juriscol.gov.co/viewDocument.asp?id=30039824',
+    },
   ],
   creditos: [
     {
@@ -224,13 +253,13 @@ export default {
       autores: [
         {
           nombre: 'Milady Tatiana Villamil Castellanos',
-          cargo: 'Responsable del Equipo',
+          cargo: 'Responsable del Ecosistema',
           centro: 'Dirección General',
         },
         {
           nombre: 'Liliana Victoria Morales Gualdrón',
           cargo: 'Responsable de Línea de Producción',
-          centro: 'Centro de Comercio y Servicios - Regional Tolima',
+          centro: 'Regional Tolima - Centro de Comercio y Servicios',
         },
       ],
     },
@@ -244,46 +273,46 @@ export default {
         },
         {
           nombre: 'Camilo Andrés Aramburo Parra',
-          cargo: 'Experto temático',
+          cargo: 'Experto Temático',
           centro: 'Regional Antioquia - Centro de servicios de salud',
         },
         {
           nombre: 'Paola Andrea Quintero Aguilar',
-          cargo: 'Diseño instruccional',
+          cargo: 'Diseño Instruccional',
           centro: 'Regional Bogotá - Centro de Gestión Industrial',
         },
         {
           nombre: 'Carolina Coca Salazar',
-          cargo: 'Asesoría metodológica y pedagógica',
+          cargo: 'Asesoría Metodológica y Pedagógica',
           centro: 'Regional Distrito Capital - Centro de Diseño y Metrología',
         },
         {
           nombre: 'Rafael Neftalí Lizcano Reyes',
-          cargo: 'Responsable equipo de desarrollo curricular',
+          cargo: 'Responsable Equipo de Desarrollo Curricular',
           centro:
             'Regional Santander - Centro Industrial del Diseño y la Manufactura',
         },
         {
           nombre: 'Julia Isabel Roberto',
-          cargo: 'Corrección de estilo',
+          cargo: 'Corrección de Estilo',
           centro: 'Regional Distrito Capital - Centro de Diseño y Metrología',
         },
         {
           nombre: 'Gloria Lida Alzate Suarez',
-          cargo: 'Adecuación instruccional',
+          cargo: 'Adecuación Instruccional',
           centro:
             'Regional Distrito Capital - Centro de Gestión de Mercados, Logística y Tecnologías de la Información',
         },
         {
           nombre: 'Alix Cecilia Chinchilla Rueda',
-          cargo: 'Metodología para la formación virtual',
+          cargo: 'Metodología para la Formación Virtual',
           centro:
             'Regional Distrito Capital - Centro de Gestión de Mercados, Logística y Tecnologías de la Información',
         },
         {
           nombre: 'Viviana Esperanza Herrera Quiñonez',
           cargo: 'Evaluación Instruccional',
-          centro: 'Centro de Comercio y Servicios - Regional Tolima',
+          centro: 'Regional Tolima - Centro de Comercio y Servicios',
         },
       ],
     },
@@ -291,71 +320,40 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Adriana Marcela Suárez Eljure',
+          nombre: 'Luis Fernando Botero Mendoza',
           cargo: 'Diseño Web',
-          centro:
-            'Regional Distrito Capital - Centro de Gestión de Mercados, Logística y Tecnologías de la Información',
-        },
-        {
-          nombre: 'Manuel Felipe Echavarría Orozco',
-          cargo: 'Desarrollo Fullstack',
-          centro:
-            'Regional Distrito Capital - Centro de Gestión de Mercados, Logística y Tecnologías de la Información',
-        },
-        {
-          nombre: '',
-          cargo: 'Diseño Web',
-          centro: 'Centro de Comercio y Servicios - Regional Tolima',
+          centro: 'Regional Tolima - Centro de Comercio y Servicios',
         },
         {
           nombre: 'Oscar Daniel Espitia Marin',
           cargo: 'Desarrollo Fullstack',
-          centro: 'Centro de Comercio y Servicios - Regional Tolima',
+          centro: 'Regional Tolima - Centro de Comercio y Servicios',
         },
         {
           nombre: 'Laura Giselle Murcia Pardo',
           cargo: 'Animación y Producción Audiovisual',
           centro:
-            'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
+            'Regional Distrito Capital - Centro de Gestión de Mercados, Logística y Tecnologías de la Información',
         },
       ],
     },
     {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
-        // {
-        //   nombre: 'Carolina Coca Salazar',
-        //   cargo: 'Evaluación de contenidos inclusivos y accesibles',
-        //   centro:
-        //     'Regional Distrito Capital - Centro de Gestión de Mercados, Logística y Tecnologías de la Información',
-        // },
-        // {
-        //   nombre: 'Lina Marcela Pérez Manchego',
-        //   cargo: 'Validación de recursos educativos digitales',
-        //   centro:
-        //     'Regional Distrito Capital - Centro de Gestión de Mercados, Logística y Tecnologías de la Información',
-        // },
-        // {
-        //   nombre: 'Leyson Fabian Castaño Pérez',
-        //   cargo:
-        //     'Validación de recursos educativos digitales y vinculación LMS',
-        //   centro:
-        //     'Regional Distrito Capital - Centro de Gestión de Mercados, Logística y Tecnologías de la Información',
-        // },
         {
           nombre: 'Jorge Eduardo Rueda Peña',
           cargo: 'Evaluación de Contenidos Inclusivos y Accesibles',
-          centro: 'Centro de Comercio y Servicios - Regional Tolima',
+          centro: 'Regional Tolima - Centro de Comercio y Servicios',
         },
         {
           nombre: 'Javier Mauricio Oviedo',
           cargo: 'Validación de Recursos Educativos Digitales',
-          centro: 'Centro de Comercio y Servicios - Regional Tolima',
+          centro: 'Regional Tolima - Centro de Comercio y Servicios',
         },
         {
           nombre: 'Jorge Bustos Gómez',
           cargo: 'Validación de Recursos Educativos Digitales',
-          centro: 'Centro de Comercio y Servicios - Regional Tolima',
+          centro: 'Regional Tolima - Centro de Comercio y Servicios',
         },
       ],
     },
